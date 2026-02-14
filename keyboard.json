@@ -17,7 +17,7 @@
     },
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP2", "GP3", "GP13"],
-        "rows": ["GP4", "GP5", "GP6", "GP7", "GP9"]
+        "rows": ["GP4", "GP5", "GP6", "GP7", "GP8"]
     },
     "processor": "RP2040",
     "url": "https://github.com/KikuchiMakoto/cheap_rp2040zero_keys",
