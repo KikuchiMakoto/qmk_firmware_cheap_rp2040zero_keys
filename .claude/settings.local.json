@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(qmk --version:*)",
+      "Bash(find:*)",
+      "Bash(xargs:*)",
+      "Bash(SHELL=powershell qmk compile:*)",
+      "Bash(echo:*)",
+      "Bash(qmk compile:*)",
+      "Bash(make:*)",
+      "Bash(qmk lint:*)",
+      "Bash(/c/QMK_MSYS/usr/bin/make.exe:*)",
+      "Bash(PATH=\"/c/QMK_MSYS/usr/bin:/c/QMK_MSYS/mingw64/bin:$PATH\" qmk compile:*)",
+      "Bash(/c/QMK_MSYS/mingw64/bin/arm-none-eabi-gcc.exe:*)",
+      "Bash(arm-none-eabi-gcc:*)",
+      "Bash(ls:*)",
+      "Bash(PATH=\"/c/QMK_MSYS/usr/bin:$PATH\" HOME=\"$HOME\" qmk compile:*)",
+      "Bash(USERPROFILE=\"C:\\\\Users\\\\kmakoto\" HOMEDRIVE=\"C:\" HOMEPATH=\"\\\\Users\\\\kmakoto\" /c/QMK_MSYS/usr/bin/make.exe:*)",
+      "Bash(/c/QMK_MSYS/usr/bin/bash.exe -l -c \"cd /c/Users/kmakoto/qmk_firmware && qmk compile -kb handwired/cheap_rp2040zero_keys -km default\")",
+      "Bash(printenv:*)",
+      "Bash(pacman --version:*)",
+      "Bash(/c/QMK_MSYS/mingw64/bin/qmk.exe:*)",
+      "Bash(PATH=\"/c/QMK_MSYS/usr/bin:/c/QMK_MSYS/mingw64/bin:$PATH\" /c/QMK_MSYS/mingw64/bin/qmk.exe compile:*)",
+      "Bash(USERPROFILE='C:\\\\Users\\\\kmakoto' MSYS2_ENV_CONV_EXCL='USERPROFILE' PATH=\"/c/QMK_MSYS/usr/bin:/c/QMK_MSYS/mingw64/bin:$PATH\" /c/QMK_MSYS/mingw64/bin/qmk.exe:*)"
+    ]
+  }
+}
